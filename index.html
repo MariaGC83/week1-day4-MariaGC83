@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Práctica Home</title>
+    <link rel="stylesheet" href="css/toggler.css">
+    
+
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+    
+        <a href="#" class="navbar__link">Inicio</a>
+        <a href="#" class="navbar__link">Servicios</a>
+        <a href="#" class="navbar__link">Nosotros</a>
+        <!--BLOQUE-->
+        <div class="dropdown">
+          <a href="#" role="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+          Formación</a>
+            <div class="dropdown__menu" aria-labelledby="dropdownMenuButton">
+              <a href="#" class="dropdown__link">Angular 7 + Animations</a>
+              <a href="#" class="dropdown__link">Angular 7 Avanzado</a>
+              <a href="#" class="dropdown__link">Docker + Kubernetes</a>
+              <a href="#" class="dropdown__link">NodeJS</a>
+              <a href="#" class="dropdown__link">CSS + Sass Avanzado</a>
+              <a href="#" class="dropdown__link">VueJS 2</a>
+              <div aria-hidden="true" class="dropdown__menu--divider"></div>
+        </div>
+        </div>
+        <a href="#" class="navbar__link">Referencia</a>
+        <a href="#" class="navbar__link" >Contacto</a>
+      </nav>
+    
+      <form action=" " id="Sugerencias" class="search">
+        <label for="busqueda" class="search__label">Buscar en Campus</label>
+        <div class="dropdown">
+            <input type="text" id="busqueda" class="dropdown__toggler" aria-haspopup="true" aria-expanded="false">
+            <div class="dropdown__menu" aria-labelledby="searchAutocomplete">
+                <a href="#" class="dropdown__link">Angular 7</a>
+                <a href="#" class="dropdown__link">Angular 7 + Animations</a>
+                <a href="#" class="dropdown__link">Angular 7 Avanzado</a>
+                
+                <div aria-hidden="true" class="dropdown__menu--divider"></div>
+                    <a href="#" class="dropdown__link">Otros cursos de formación</a>
+                    <a href="#" class="dropdown__link">Bootcamp</a>
+                </div>
+        </div> 
+        <button type="submit" class="search__btn btn">Buscar</button> 
+    </form>
+
+</header>
+<main>
+    <article class="article">
+        <h1 class="article__title">¡Hola a todos!</h1>
+        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora!
+            Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+         <a href="#" title="Acerca de Campus Boream" class="article__link">Más información</a>
+    </article>
+    
+    <!--Cursos-->
+    <section class="course">
+        <article class="article">
+            <h2 class="article__title--size-l" ><a href="#">Angular 7 + Animations</a></h2>
+            <img src="../week1-day2-MariaGC83/images/placeimg_200_200_tech.jpg" alt="Persona utilizando una tablet" class="article__img">
+            <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iuretempora!
+            Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo.
+            Lorem ipsum dolor sit amet, consectetur.</p>
+        </article>
+        <article>
+            <h2 class="article__title--size-l"><a href="#">Docker + Kubernetes</a></h2>
+        <img src="../week1-day2-MariaGC83/images/placeimg_200_200_animals.jpg" alt="Gato sentado" class="article__img">
+        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iuretempora!
+            Consectetur ex, autem amet maxime odit.
+            Adipisci quod, tenetur reiciendis nemo.
+            Lorem ipsum dolor sit amet, consectetur.</p>
+        </article>
+        <article>
+            <h2 class="article__title--size-l"><a href="article__link">NodeJS</a></h2>
+        <img src="../week1-day2-MariaGC83/images/placeimg_200_200_nature.jpg" alt="Paisaje boscoso" class="article__img">
+        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iuretempora!
+            Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo.
+            Lorem ipsum dolor sit amet, consectetur.</p>
+        </article>
+    </section><!-- // cursos-->
+
+    <!--Próximas Convocatorias-->
+<article class="article">
+    <h2 class="article__title--size-l"><a href="" class="article__link">Próximas convocatorias</a></h2>
+    <img src="../week1-day2-MariaGC83/images/video.png" alt="Video explicativo" class="article__img">
+    <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Exercitationem illo, sapiente facere molestiae.</p>
+    <form action="..." class="article__form"></form>
+        <label for="email" class="article__label">Indica tu correo electrónico</label>
+        <input type="email" id="email" placeholder="introduce un email valido" class="article__input">
+        <button type="submit" class="article__btn">Me apunto!</button>
+    </form>
+</article>
+<!--//próximas convocatorias-->
+
+<!--Apoyo-->
+<article class="article">
+    <h2 class="article__title">Servicios de apoyo profesional</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora!
+    Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maxime et esse aspernatur, natus quidem voluptas.</p>
+    <a href="#" class="article__link">Lorem ipsum</a>  
+</article>
+
+</main><!--//apoyo-->
+
+<!--Footer-->
+<footer class="footer">
+    <ul>
+        <li class="footer__item"><a href="#" class="footer__link">Inicio</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Servicio</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Nosotros</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Formación</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Referencia</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Contacto</a></li>
+
+    </ul>
+    <p>© Company 2018</p> 
+</footer> <!--//footer-->
+<script src="js/toggler.js"></script>
+</body>
+</html> 
